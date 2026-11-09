@@ -1,0 +1,21 @@
+.gitattributes
+  s_54214098f207e0::t_5bee58b634395f 1-3
+README.md
+  s_54214098f207e0::t_5bee58b634395f 3
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "fc9e2d1e89322eb32873822cafd84006bbe030f1",
+  "prompts": {},
+  "sessions": {
+    "s_54214098f207e0": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "94211bd0-6b9d-4bb9-b402-a4345a77b8fc",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Giulia Castro <castro.giuliab@gmail.com>"
+    }
+  }
+}
