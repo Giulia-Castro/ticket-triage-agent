@@ -1,0 +1,138 @@
+.env.example
+  h_58ede97633f912 1-25
+.github/workflows/ci.yml
+  h_58ede97633f912 1-53
+.gitignore
+  h_58ede97633f912 1-32
+Dockerfile
+  h_58ede97633f912 1-26
+LICENSE
+  h_58ede97633f912 1-21
+README.md
+  h_58ede97633f912 1-241
+alembic.ini
+  h_58ede97633f912 1-37
+data/knowledge_base.json
+  h_58ede97633f912 1-14
+docker-compose.yml
+  h_58ede97633f912 1-30
+evals/__init__.py
+  h_58ede97633f912 1
+evals/dataset.jsonl
+  h_58ede97633f912 1-48
+evals/metrics.py
+  h_58ede97633f912 1-140
+evals/results/keyword-baseline-20261108T234037Z.json
+  h_58ede97633f912 1-738
+evals/run_evals.py
+  h_58ede97633f912 1-156
+migrations/env.py
+  h_58ede97633f912 1-46
+migrations/script.py.mako
+  h_58ede97633f912 1-25
+migrations/versions/20261108_0001_create_ticket_triage.py
+  h_58ede97633f912 1-58
+prompts/CHANGELOG.md
+  h_58ede97633f912 1-27
+prompts/triage/v1.md
+  h_58ede97633f912 1-13
+prompts/triage/v2.md
+  h_58ede97633f912 1-71
+pyproject.toml
+  h_58ede97633f912 1-52
+src/triage_agent/__init__.py
+  h_58ede97633f912 1-3
+src/triage_agent/api/__init__.py
+  h_58ede97633f912 1
+src/triage_agent/api/dependencies.py
+  h_58ede97633f912 1-39
+src/triage_agent/api/i18n.py
+  h_58ede97633f912 1-43
+src/triage_agent/api/locales/en.json
+  h_58ede97633f912 1-52
+src/triage_agent/api/locales/pt-BR.json
+  h_58ede97633f912 1-52
+src/triage_agent/api/main.py
+  h_58ede97633f912 1-113
+src/triage_agent/api/problems.py
+  h_58ede97633f912 1-68
+src/triage_agent/api/routes.py
+  h_58ede97633f912 1-104
+src/triage_agent/api/schemas.py
+  h_58ede97633f912 1-140
+src/triage_agent/application/__init__.py
+  h_58ede97633f912 1
+src/triage_agent/application/errors.py
+  h_58ede97633f912 1-9
+src/triage_agent/application/ports.py
+  h_58ede97633f912 1-76
+src/triage_agent/application/use_cases.py
+  h_58ede97633f912 1-161
+src/triage_agent/domain/__init__.py
+  h_58ede97633f912 1
+src/triage_agent/domain/enums.py
+  h_58ede97633f912 1-53
+src/triage_agent/domain/errors.py
+  h_58ede97633f912 1-23
+src/triage_agent/domain/masking.py
+  h_58ede97633f912 1-46
+src/triage_agent/domain/model.py
+  h_58ede97633f912 1-130
+src/triage_agent/domain/result.py
+  h_58ede97633f912 1-24
+src/triage_agent/domain/routing.py
+  h_58ede97633f912 1-62
+src/triage_agent/infrastructure/__init__.py
+  h_58ede97633f912 1
+src/triage_agent/infrastructure/claude_agent.py
+  h_58ede97633f912 1-308
+src/triage_agent/infrastructure/container.py
+  h_58ede97633f912 1-88
+src/triage_agent/infrastructure/keyword_agent.py
+  h_58ede97633f912 1-186
+src/triage_agent/infrastructure/knowledge_base.py
+  h_58ede97633f912 1-34
+src/triage_agent/infrastructure/logging.py
+  h_58ede97633f912 1-48
+src/triage_agent/infrastructure/persistence/__init__.py
+  h_58ede97633f912 1
+src/triage_agent/infrastructure/persistence/database.py
+  h_58ede97633f912 1-15
+src/triage_agent/infrastructure/persistence/orm.py
+  h_58ede97633f912 1-62
+src/triage_agent/infrastructure/persistence/repository.py
+  h_58ede97633f912 1-249
+src/triage_agent/infrastructure/prompts.py
+  h_58ede97633f912 1-39
+src/triage_agent/infrastructure/resilience.py
+  h_58ede97633f912 1-59
+src/triage_agent/infrastructure/settings.py
+  h_58ede97633f912 1-59
+src/triage_agent/infrastructure/text_similarity.py
+  h_58ede97633f912 1-94
+tests/conftest.py
+  h_58ede97633f912 1-77
+tests/integration/test_api.py
+  h_58ede97633f912 1-161
+tests/unit/test_claude_agent.py
+  h_58ede97633f912 1-225
+tests/unit/test_domain.py
+  h_58ede97633f912 1-167
+tests/unit/test_eval_metrics.py
+  h_58ede97633f912 1-49
+tests/unit/test_infrastructure.py
+  h_58ede97633f912 1-103
+tests/unit/test_use_cases.py
+  h_58ede97633f912 1-92
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "b70a26d97d294872639c43f1aefec74afdd49812",
+  "prompts": {},
+  "humans": {
+    "h_58ede97633f912": {
+      "author": "Giulia Castro <castro.giuliab@gmail.com>"
+    }
+  }
+}
