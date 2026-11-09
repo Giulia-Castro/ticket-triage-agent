@@ -1,0 +1,14 @@
+[
+  {"id": "KB-001", "title": "Redefinir senha de acesso", "summary": "Como redefinir a senha pela tela de login, validade do link de redefinição (30 minutos) e o que fazer quando o e-mail não chega."},
+  {"id": "KB-002", "title": "Login com SSO (SAML) falhando", "summary": "Checklist de configuração do SSO: certificado expirado, URL de retorno, horário do servidor e mapeamento de e-mail."},
+  {"id": "KB-003", "title": "Autenticação em dois fatores (MFA)", "summary": "Como reconfigurar o MFA após troca de celular e como o administrador pode resetar o segundo fator de um usuário."},
+  {"id": "KB-004", "title": "Perfis e permissões de usuário", "summary": "Como o administrador atribui perfis, por que um menu some para alguns usuários e como convidar novos usuários."},
+  {"id": "KB-005", "title": "Segunda via de fatura e boleto", "summary": "Onde baixar faturas, boletos e notas fiscais no portal financeiro e prazo de compensação de pagamentos."},
+  {"id": "KB-006", "title": "Mudança de plano e cobrança proporcional", "summary": "Como funciona o upgrade ou downgrade de plano, cobrança proporcional (pro rata) e cancelamento de usuários extras."},
+  {"id": "KB-007", "title": "Limites da API e erro 429", "summary": "Limites de requisições por minuto da API pública, cabeçalhos de rate limit e boas práticas de retry com backoff."},
+  {"id": "KB-008", "title": "Webhooks: entrega, assinatura e reenvio", "summary": "Política de retentativas de webhooks, validação da assinatura HMAC, erro 401 após troca de token e reenvio manual."},
+  {"id": "KB-009", "title": "Sincronização do aplicativo móvel offline", "summary": "Como o app do técnico sincroniza ordens de serviço feitas offline, conflitos de edição e como forçar sincronização."},
+  {"id": "KB-010", "title": "Relatórios lentos ou exportação travando", "summary": "Limites de período em relatórios, exportação assíncrona para arquivos grandes e horários de menor carga."},
+  {"id": "KB-011", "title": "Status da plataforma e incidentes", "summary": "Onde acompanhar a página de status, como é comunicado um incidente geral e o que informar ao suporte."},
+  {"id": "KB-012", "title": "Como sugerir novas funcionalidades", "summary": "Processo de sugestões: portal de ideias, votação de clientes e como o produto prioriza o roadmap."}
+]

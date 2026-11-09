@@ -1,0 +1,52 @@
+{
+  "errors": {
+    "TICKET_SUBJECT_REQUIRED": {
+      "title": "Assunto obrigatório",
+      "detail": "O assunto do chamado não pode ficar vazio."
+    },
+    "TICKET_SUBJECT_TOO_LONG": {
+      "title": "Assunto muito longo",
+      "detail": "O assunto do chamado deve ter no máximo {max} caracteres."
+    },
+    "TICKET_BODY_REQUIRED": {
+      "title": "Descrição obrigatória",
+      "detail": "A descrição do chamado não pode ficar vazia."
+    },
+    "TICKET_BODY_TOO_LONG": {
+      "title": "Descrição muito longa",
+      "detail": "A descrição do chamado deve ter no máximo {max} caracteres."
+    },
+    "TRIAGE_NOT_FOUND": {
+      "title": "Triagem não encontrada",
+      "detail": "Não existe triagem com o id {id}."
+    },
+    "TRIAGE_VERSION_CONFLICT": {
+      "title": "A triagem foi alterada por outra pessoa",
+      "detail": "Você enviou a versão {expected}, mas a triagem mudou. Recarregue e tente de novo."
+    },
+    "TRIAGE_REFUSED_BY_MODEL": {
+      "title": "Não foi possível triar o chamado automaticamente",
+      "detail": "O modelo recusou classificar este chamado. Encaminhe manualmente."
+    },
+    "VALIDATION_FAILED": {
+      "title": "Requisição inválida",
+      "detail": "Um ou mais campos são inválidos. Veja a lista de erros."
+    },
+    "UNAUTHORIZED": {
+      "title": "Autenticação necessária",
+      "detail": "Envie uma chave de API válida no cabeçalho X-API-Key."
+    },
+    "RESOURCE_NOT_FOUND": {
+      "title": "Recurso não encontrado",
+      "detail": "A URL solicitada não existe."
+    },
+    "SERVICE_UNAVAILABLE": {
+      "title": "Serviço de triagem temporariamente indisponível",
+      "detail": "O modelo de linguagem está indisponível. Tente novamente em alguns segundos."
+    },
+    "INTERNAL_ERROR": {
+      "title": "Erro inesperado",
+      "detail": "Algo deu errado. Informe o correlation id ao suporte."
+    }
+  }
+}

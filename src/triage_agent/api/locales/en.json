@@ -1,0 +1,52 @@
+{
+  "errors": {
+    "TICKET_SUBJECT_REQUIRED": {
+      "title": "Subject is required",
+      "detail": "The ticket subject cannot be empty."
+    },
+    "TICKET_SUBJECT_TOO_LONG": {
+      "title": "Subject is too long",
+      "detail": "The ticket subject must have at most {max} characters."
+    },
+    "TICKET_BODY_REQUIRED": {
+      "title": "Description is required",
+      "detail": "The ticket description cannot be empty."
+    },
+    "TICKET_BODY_TOO_LONG": {
+      "title": "Description is too long",
+      "detail": "The ticket description must have at most {max} characters."
+    },
+    "TRIAGE_NOT_FOUND": {
+      "title": "Triage not found",
+      "detail": "No triage exists with id {id}."
+    },
+    "TRIAGE_VERSION_CONFLICT": {
+      "title": "Triage was changed by someone else",
+      "detail": "You sent version {expected}, but the triage has changed. Reload it and try again."
+    },
+    "TRIAGE_REFUSED_BY_MODEL": {
+      "title": "Ticket could not be triaged automatically",
+      "detail": "The model declined to classify this ticket. Route it manually."
+    },
+    "VALIDATION_FAILED": {
+      "title": "Invalid request",
+      "detail": "One or more fields are invalid. See the errors list."
+    },
+    "UNAUTHORIZED": {
+      "title": "Authentication required",
+      "detail": "Send a valid API key in the X-API-Key header."
+    },
+    "RESOURCE_NOT_FOUND": {
+      "title": "Resource not found",
+      "detail": "The requested URL does not exist."
+    },
+    "SERVICE_UNAVAILABLE": {
+      "title": "Triage service temporarily unavailable",
+      "detail": "The language model is unavailable. Try again in a few seconds."
+    },
+    "INTERNAL_ERROR": {
+      "title": "Unexpected error",
+      "detail": "Something went wrong. Report the correlation id to support."
+    }
+  }
+}
