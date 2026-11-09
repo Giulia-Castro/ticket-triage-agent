@@ -1,6 +1,6 @@
 # Ticket Triage Agent
 
-![CI](https://github.com/<seu-usuario>/ticket-triage-agent/actions/workflows/ci.yml/badge.svg)
+![CI](https://github.com/Giulia-Castro/ticket-triage-agent/actions/workflows/ci.yml/badge.svg)
 ![Python](https://img.shields.io/badge/python-3.12+-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
